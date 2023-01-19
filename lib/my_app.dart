@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Bloc Architecture',
-      home: HomeScreen(),
+      home: const HomeScreen(),
       theme: ThemeData.dark(
         useMaterial3: true,
       ),
